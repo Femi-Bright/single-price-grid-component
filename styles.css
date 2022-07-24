@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+:root {
+    --cyan: #2ab2af;
+    --cyan-pale:rgba(42, 178, 175, .8);
+    --bright-yellow: #c0df34;
+
+    --light-gray: #e5eff5;
+    --grayish-blue: #98a6bd;
+    --white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Karla', sans-serif;
+}
+
+body {
+    background-color: var(--light-gray);
+    display: grid;
+    height: 100vh;
+    font-size: 16px;
+    place-content: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.card {
+    background-color: var(--white);
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        font-size: 18px;
+        max-width: 700px;
+    }
+}
+
+
+.first, .second, .third {
+    padding: 20px;
+}
+
+.first {
+    width: 100%;
+    padding: 30px 20px;
+}
+@media screen and (min-width: 768px) {
+    .first, .second, .third {
+        padding: 40px;
+    }
+}
+
+.first .title {
+    color: var(--cyan);
+    font-size: 1.125em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.first .lead {
+    color: var(--bright-yellow);
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.first .info {
+    color: var(--grayish-blue);
+    font-size: 0.875em;
+    line-height: 1.5em;
+}
+
+.second {
+    color: var(--light-gray);
+    background-color: var(--cyan);
+    width: 100%;
+}
+
+.second .title {
+    font-size: 1.125em;
+    margin-bottom: 15px;
+}
+
+.second .price-duration {
+    align-items: center;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.second .price {
+    font-size: 1.625em;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.second .duration {
+    font-size: 0.875em;
+    opacity: .7;
+}
+
+.second .info {
+    font-size: 0.9375em;
+    margin-bottom: 30px;
+}
+
+.second button.cta {
+    border: 0;
+    border-radius: 6px;
+    background-color: var(--bright-yellow);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    color: var(--white);
+    cursor: pointer;
+    display: block;
+    font-size: 1em;
+    padding: 12px;
+    width: 100%;
+}
+
+.third {
+    color: var(--light-gray);
+    background-color: var(--cyan-pale);
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .second, .third {
+        width: 50%;
+    }
+}
+
+.third .title {
+    font-size: 1.125em;
+    margin-bottom: 15px;
+}
+
+.third ul li {
+    color: var(--light-gray);
+    font-size: .8em;
+    margin-bottom: 6px;
+}

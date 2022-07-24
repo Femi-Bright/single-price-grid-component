@@ -28,8 +28,8 @@ Users should be able to:
 ![](./screenshot.jpg)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/single-price-grid-component-using-css-grid-and-flexbox-Z1GTcgKy8a](https://www.frontendmentor.io/solutions/single-price-grid-component-using-css-grid-and-flexbox-Z1GTcgKy8a)
+- Live Site URL: [https://fb-single-price-grid-component.netlify.app/](hhttps://fb-single-price-grid-component.netlify.app/)
 
 ## My process
 
